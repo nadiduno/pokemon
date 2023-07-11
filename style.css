@@ -27,9 +27,7 @@ body {
     background: #fff;
     border-radius: 50%;
     display: inline;
-    padding: .7rem;
-    margin: 1rem;
+    padding: .5rem;
+    margin: .5rem;
     box-shadow: 1px 1px 1px #1f1f1f;
-    display: inline-block;
-    place-items: center;
 }
