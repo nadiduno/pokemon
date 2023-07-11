@@ -11,8 +11,8 @@ function carregarPokemon() {
             let imgPokemonBack = data["sprites"]["back_default"]
             document.getElementById("nomPK").innerHTML = data["name"]
             document.getElementById("idPk").innerHTML = data["id"]
-            document.getElementById("imgPk").setAttribute('src', imgPokemonFront)
-            document.getElementById("imgPkFemale").setAttribute('src', imgPokemonBack)
+            document.getElementById("imgPkFront").setAttribute('src', imgPokemonFront)
+            document.getElementById("imgPkBack").setAttribute('src', imgPokemonBack)
 
         })
         .catch((error) => {
