@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: #1f1f1f;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 25rem;
+    height: 25rem;
+    margin: 10rem;
+    padding: 30px;
+    border-radius: 6px;
+    background: #ffff00;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball {
+    background: #fff;
+    border-radius: 50%;
+    display: inline;
+    padding: .7rem;
+    margin: 1rem;
+    box-shadow: 1px 1px 1px #1f1f1f;
+    display: inline-block;
+    justify-content: space-between;
+}

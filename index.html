@@ -2,6 +2,10 @@
 <html lang="pt-BR">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -9,13 +13,14 @@
 </head>
 
 <body>
-    <div>
-        <h1>Quem é esse Pokemon?</h1>
-        <div id="nomPK">Nome</div>
-        <div id="idPk">Número</div>
-        <img id="imgPkFront" />
-        <img id="imgPkBack" />
+    <div class="container">
+        <h1>Pokemon</h1>
+        <h2>Quem é esse Pokemom?</h2>
+        <input type="number" id="idPk" placeholder="Digite o número do seu pokemon">
         <button onclick="carregarPokemon()">Carregar Pokemon</button>
+        <p id="nomPK"></p>
+        <img class="ball" id="imgPkFront" />
+        <img class="ball" id="imgPkBack" />
     </div>
     <script src="main.js"></script>
 </body>
