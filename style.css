@@ -23,12 +23,6 @@ body {
     background: #ffff00;
 }
 
-.elements {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .ball {
     background: #fff;
     border-radius: 50%;
@@ -37,5 +31,5 @@ body {
     margin: 1rem;
     box-shadow: 1px 1px 1px #1f1f1f;
     display: inline-block;
-    justify-content: space-between;
+    place-items: center;
 }
